@@ -1,0 +1,419 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	background-color: #252529;
+	margin: 0;
+	color: #fff;
+	line-height: 1.6;
+}
+a{
+	text-decoration: none;
+	color: #ccc;
+}
+#showcase{
+	margin: 0;
+	padding: 0;
+	background: url('main.jpg') no-repeat center/cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+#showcase .container{
+	margin-top: 20vh;
+}
+#showcase h1{
+	font-size: 4rem;
+}
+#showcase h2{
+	font-size: 1rem;
+}
+.button{
+	border:none;
+	padding:15px 32px;
+	text-align:center;
+	text-decaration:none;
+	color:white;
+	font-size:15px;
+	cursor:pointer;
+}
+.button{
+	background-color:#008CBA;
+}
+
+nav{
+	height: 40px;
+	width: 100%;
+	position: scroll;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	width: 110px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;
+	color: #eee;
+}
+nav li:hover{
+	background-color: #444;
+}
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+.lead{
+	font-size: 1.3rem;
+}
+footer .hole{
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns:repeat(3,1fr);
+		
+}
+footer .con{
+	display:grid;
+	grid-gap:5px;
+	grid-template-columns:repeat(2,2fr);
+	padding-right:150px;
+	text-align:left;
+
+}
+footer .a{
+	display:grid;
+	grid-gap:0px;
+	grid-template-columns:repeat(2,3fr);
+	text-decoration: none;
+	padding:0;
+	margin:0;		
+}
+footer .a a{
+	color:green;
+}
+footer .a i{
+	color:white;
+}
+footer .con material-icons{
+	color:green;
+}
+footer .but{
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns:repeat(3,3fr);
+}
+footer .but a{
+	border:2px solid green;
+	color:green;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+footer .hole ul{
+	list-style:none;
+}
+footer .hole li{
+	list-style:none;
+}
+footer h2{
+	border-bottom:#444 solid 1px;
+}
+.news button{
+	border:none;
+	padding:10px 15px;
+	text-align:center;
+	text-decaration:none;
+	color:white;
+	font-size:15px;
+	cursor:pointer;
+}
+.news button{
+	background-color:green;
+}
+input{
+	width:50%;
+	height:30px;
+}
+footer .hole li:last-child{
+	border-bottom: none;
+}
+.footer-bottom{
+	text-align:right;
+}
+
+.first{
+	height: 100vh;
+	display: flex;
+}
+section{
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+.about-page{
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns:repeat(2,2fr);
+}
+#home{
+	background:url('banner-bg.jpg') no-repeat center/cover;
+	text-align:center;
+	width: 100%;
+	height: 80vh;
+	padding:20px;
+	padding-top:100px;
+}
+#home a{
+	border:2px solid white;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+#photogallery{
+	background-color:#F8F8FF;
+	text-align:center;
+	padding:20px;
+	width: 100%;
+	height: 93vh;
+}
+.about-page h5{
+	color:grey;
+}
+.about-page h1{
+	color:blue;
+}
+.about-page a{
+	color:blue;
+}
+.home-cleaning{
+	border-right:2px solid white;
+	border-bottom:2px solid white;
+	padding:30px;
+	margin-top:-30px;
+	margin-right:-10px;
+	margin-left:-20px;
+}
+.cloth-ironing{
+	border-bottom:2px solid white;
+	padding:30px;
+	margin-top:-30px;
+	margin-left:-10px;
+	margin-right:-20px;
+}
+.window-cleaning{
+	border-right:2px solid white;
+	padding-top:30px;
+	padding-left:30px;
+	padding-right:20px;
+margin-bottom:-20px;
+	margin-top:-30px;
+	margin-right:-10px;
+}
+.sec{
+	height:100%;
+	display:flex;
+}
+.product{
+	background-color:#F8F8FF;
+	text-align:center;
+	padding:20px;
+	width: 94%;
+	height: 100%;
+	margin-top:-4px;
+}
+.product{
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns:repeat(2,2fr);
+	
+}
+figcaption{
+	color:blue;
+}
+.product h1{
+	color:black;
+}
+.product h5{
+	color:grey;
+}
+
+.outdoor{
+	border-right:2px solid white;
+	border-bottom:2px solid white;
+	padding-top:30px;
+	padding-right:30px;
+	padding-bottom:20px;
+	margin-top:-20px;
+	margin-right:-10px;
+	margin-left:-20px;
+}
+.floor{
+	border-bottom:2px solid white;
+	padding-top:30px;
+	padding-left:30px;
+	padding-bottom:20px;
+	margin-top:-30px;
+	margin-left:-10px;
+	margin-right:-20px;
+}
+.bathroom{
+	border-right:2px solid white;
+	padding-top:30px;
+	padding-right:30px;
+	padding-bottom:10px;
+	margin-top:-30px;
+	margin-right:-10px;	
+}
+#otherservices{
+	text-align:center;
+	padding-top:300px;
+	padding-bottom:204px;
+	background-color:white;
+	margin-left:-1px;
+	margin-top:-5px;
+}
+#otherservices h1{
+	color:black;
+}
+#otherservices h3{
+	color:grey;
+}
+#otherservices h5{
+	color:grey;
+	padding:50px;
+}
+#otherservices h2{
+	color:black;
+}
+#otherservices h4{
+	color:black;
+}
+.fig img{
+	border-radius:50%;
+}
+figcaption{
+	color:black;
+}
+
+.wrapper{
+	background-image: url('bg-blog.jpg');
+	height: 600px;
+	width: 100%;
+	text-align: center;
+	margin-top:-23px;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper h1{
+	padding-top: 70px;
+	color: white;
+}
+.wrapper h2{
+	padding:10px;
+	margin-top:-30px;
+	color: #F8F8FF;
+	letter-spacing: 3px;
+}
+.blog{
+	display: flex;
+	text-align: left;
+	padding: 20px;
+}
+.blog-one{
+	background-color: white;
+	width: 530px;
+	height: 350px;
+	margin-left: 100px;
+	line-height: 20px;
+}
+.blog-one h2{
+	background-color: #F8F8FF;
+	margin-left: 220px;
+	margin-right: 220px;
+	padding: 10px;
+	color:black;
+	text-align:center;
+	margin-top:20px;
+	line-spacing:none;
+}
+.blog-one h3{
+	margin-left: 215px;
+	color: blue;
+}
+.blog-one h4{
+	margin-left: 210px;
+	padding: 5px;
+	color: grey;
+}
+.blog-one a{
+	padding: 20px;
+	margin-bottom: 10px;
+	color: blue;
+	margin-left: 2px;
+}
+#aboutus{
+	text-align:center;
+	background:white;
+	padding:20px;
+}
+#aboutus h2{
+	color:black;
+	margin-bottom:-15px;
+}
+#aboutus h3{
+	color:grey;
+	letter-spacing:3px;
+}
+.abo{
+	display:flex;
+	padding:20px;
+	text-align:left;
+}
+.cont h1{
+	color:blue;
+	padding-left:30px;
+	padding-right:50px;
+	padding-top:20px;
+
+}
+.cont h4{
+	color:grey;
+	padding-left:30px;
+	padding-right:100px;
+	margin-bottom:50px;
+}
+.cont button{
+	margin-left:30px;
+}
+.image img{
+	width:500px;
+	height:350px;
+	padding:50px;
+}
+#contactus{
+	background-image: url('consultation.jpg');
+	margin-top:-25px;
+	height:300px;
+	text-align:center;
+	padding-top:40px;
+}
+.cons h1{
+	padding-top:20px;
+}
+.cons a{
+	border:2px solid white;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+.map{
+	background: url('map.jpg') no-repeat center/cover;
+}
